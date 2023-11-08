@@ -29,4 +29,6 @@ jobs:
       #run: mvn -B package --file pom.xml
       run: mvn clean install
 
+    - name: create docker image
+      run: docker build -tag HelloWordImage .
 
