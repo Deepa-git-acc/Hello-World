@@ -4,6 +4,7 @@ ADD target/webapp-1.0-SNAPSHOT.war webapp-1.0-SNAPSHOT.war
 ENTRYPOINT ["java","-jar","/webapp-1.0-SNAPSHOT.war"]
 
 
+
 # Pull base image 
 #From tomcat:8-jre8 
 
